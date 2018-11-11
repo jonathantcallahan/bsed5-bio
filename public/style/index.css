@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Youth Culture';
+    src: url('./../fonts/YouthCulture.otf');
+}
+
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: monospace;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: black
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent
+}
+
+.title {
+    font-family: 'Youth Culture';
+    font-size: 10vw;
+    top: -4vw;
+    left: -3vw;
+    position: fixed;
+    background-color: transparent
+}
+
+.icon {
+
+}
+
+.top-navigation {
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.homepage-navigation-container {
+    padding: 10vh 0px 0px 40px;
+    border-right: 1px solid white;
+    width: 272px;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    z-index: 499;
+}
+
+.homepage-navigation-title {
+    font-size: 1.5em;
+    margin-bottom: 20px
+}
+
+.homepage-navigation-link {
+    margin-bottom: 30px;
+    background-color: transparent;
+    z-index: 500;
+    font-size: 18px
+}
+
+.homepage-navigation-link > a {
+    margin-left: 12px;
+    position: relative;
+    bottom: 20px
+}
+
+.homepage-image {
+    position: fixed;
+    bottom: -525px;
+    right: -100px
+}
+
+@keyframes letterSpace {
+    0% {letter-spacing: 0px}
+    100% {letter-spacing: 10px}
+}
+
+.homepage-navigation-link:hover {
+    font-weight: bold;
+    animation: letterSpace 3s forwards
+}
+
+.clock-container {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    text-align: right
+}
+
+.homepage-circle {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    right: 120px;
+    background-color: red;
+    border-radius: 50%
+}
+
+@media screen and (max-width: 860px){
+    .homepage-navigation-container {
+        width: 100%;
+        border: 0px solid white;
+        padding: 9vh 100px
+    }
+    .homepage-circle {
+        display: none
+    }
+    .title {
+        font-size: 80px !important;
+        top: -20px
+    }
+    .top-navigation {
+        border-bottom: 0px solid white
+    }
+    .homepage-image {
+        width: 550px
+    }
+}
+
+@media screen and (max-width: 1122px){
+    .title {
+        font-size: 180px
+    }
+}
