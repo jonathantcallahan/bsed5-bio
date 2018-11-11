@@ -7,4 +7,8 @@ module.exports = app => {
     app.get('/about', (req,res) => {
         res.sendFile(path.join(__dirname,'./../public/html/about.html'))
     })
+    app.get('/projects', (req,res) => {
+        res.sendFile(path.join(__dirname,'./../public/html/projects.html'))
+    })
+
 }

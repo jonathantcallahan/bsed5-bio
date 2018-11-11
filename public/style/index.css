@@ -69,12 +69,39 @@ a {
     display: inline-block
 }
 
+.mobile-image {
+    width: 16vw;
+    margin: .5vw;
+}
+
 .content-block {
     display: inline-block;
     height: 100%;
     width: 600px;
     vertical-align: top;
-    padding: 50px
+    padding: 50px;
+    font-size: 15px
+}
+
+.project-title-selected {
+    background-color: white;
+    color: black
+}
+
+.content-block-link, .content-block-github {
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    display: inline-block
+}
+
+.content-block-projects {
+    overflow: scroll;
+    width: 60vw
+}
+
+.content-block-projects::-webkit-scrollbar {
+    width: 0px
 }
 
 .homepage-navigation-title {
@@ -153,6 +180,36 @@ a {
     display: none
 }
 
+.content-block-title {
+    font-size: 25px;
+}
+
+
+.content-block-description {
+    margin: 20px 0px 10px 0px
+}
+
+.projects-nav-container {
+    padding-left: 0px;
+    text-align: center
+}
+
+.projects-icon {
+    margin-left: 0px
+}
+
+.project-titles {
+    margin-top: 50px;
+    border-top: 1px solid white
+}
+
+.project-title {
+    padding: 30px 0px;
+    border-bottom: 1px solid white
+}
+
+
+
 @media screen and (max-width: 860px){
     .homepage-navigation-container {
         width: 100%;
@@ -192,6 +249,31 @@ a {
     }
     .gif-overlay {
         display: none
+    }
+
+    /* projects page */
+    .content-block-projects {
+        position: fixed;
+        left: 0px;
+        top: 44vh;
+        width: 100vw;
+        height: 60vh;
+        display: inline-block;
+        overflow: scroll;
+        padding: 0px 20px
+    }
+    .projects-nav-container {
+        height: 15vh;
+        padding: 0px
+    }
+    .mobile-image {
+        width: 100%
+    }
+    .project-titles {
+        margin-top: 5px
+    }
+    .project-title {
+        padding: 3px 0px
     }
 }
 
