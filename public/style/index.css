@@ -169,16 +169,16 @@ iframe::-webkit-scrollbar {
 
 .profile-image {
     position: fixed;
-    top: 35vh;
-    left: 15vw;
-    width: 400px;
+    bottom: 0px;
+    left: 5vw;
+    width: 60vw;
     z-index: 505;
-    animation: sat 100s forwards
+    animation: sat 6s infinite
 }
 
 @keyframes sat {
-    0% {filter: saturate(0)}
-    100% {filter: saturate(100)}
+    0%,100% {filter: blur(0px)}
+    50% {filter: blur(2px)}
 }
 
 .gif-overlay {
