@@ -171,14 +171,14 @@ iframe::-webkit-scrollbar {
     position: fixed;
     bottom: 0px;
     left: 5vw;
-    width: 60vw;
+    width: 50vw;
     z-index: 505;
-    animation: sat 6s infinite
+    /* animation: sat 8s infinite */
 }
 
 @keyframes sat {
     0%,100% {filter: blur(0px)}
-    50% {filter: blur(2px)}
+    50% {filter: blur(.1em)}
 }
 
 .gif-overlay {
