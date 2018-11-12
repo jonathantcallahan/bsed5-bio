@@ -13,7 +13,7 @@
         "title" : "Langing Pad - React.js",
         "link" : "https://fast-garden-47276.herokuapp.com/",
         "github" : "https://github.com/jonathantcallahan/landing-pad",
-        "description" : "A crowdsourced React.js parking application that allows users to rent parking spaces to eachother. Built as a final project for a coding bootcamp. To view without creating an account use the username: 'jonathan' and the password: 'jonathan'. Best viewed on a mobile device or a desktop mobile emulator.",
+        "description" : "A crowdsourced parking application built with React.js that allows users to rent parking spaces to eachother. Built as a final project for a coding bootcamp. To view without creating an account use the username: 'jonathan' and the password: 'jonathan'. Best viewed on a mobile device or a desktop mobile emulator.",
         "images" : {
             "mobile" : ["./../media/landing-home.png","./../media/landing-rent.png","./../media/landing-account.png"],
             "desktop" : []
