@@ -10,6 +10,7 @@
     user-select: none;
     margin: 0;
     padding: 0;
+    /*overflow: hidden*/
 }
 
 html {
@@ -96,11 +97,49 @@ a {
 }
 
 .content-block-projects {
-    overflow: scroll;
+    overflow-y: scroll;
     width: 60vw
 }
 
 .content-block-projects::-webkit-scrollbar {
+    width: 0px
+}
+
+.content-block-contact-info {
+    margin-top: 10px
+}
+
+.content-block-contact-info > a {
+    text-decoration: underline
+}
+
+iframe {
+    width: 800px;
+    height: 100%;
+    border-style: none;
+}
+
+.content-block-resume {
+    display: none;
+    margin-top: 20px
+}
+
+.content-block-contact-view-resume, .content-block-contact-view-resume-mobile {
+    font-size: 10px;
+    position: relative;
+    bottom: 1px;
+    margin-left: 10px;
+    background-color: red;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.content-block-contact-view-resume-mobile {
+    margin: 12px 0px 0px;
+    display: inline-block
+}
+
+iframe::-webkit-scrollbar {
     width: 0px
 }
 
@@ -210,7 +249,7 @@ a {
 
 
 
-@media screen and (max-width: 860px){
+@media screen and (max-width: 880px){
     .homepage-navigation-container {
         width: 100%;
         border: 0px solid white;
@@ -225,7 +264,8 @@ a {
         top: -20px
     }
     .top-navigation {
-        border-bottom: 0px solid white
+        border-bottom: 0px solid white;
+        margin-top: 50px
     }
     .homepage-image {
         width: 550px
@@ -243,6 +283,7 @@ a {
     .content-block {
         display: none
     }
+
     .top-navigation {
         margin-top: 50px;
         text-align: center
@@ -259,7 +300,8 @@ a {
         width: 100vw;
         height: 60vh;
         display: inline-block;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
         padding: 0px 20px
     }
     .projects-nav-container {
@@ -274,6 +316,9 @@ a {
     }
     .project-title {
         padding: 3px 0px
+    }
+    .projects-icon {
+        margin-left: 0px
     }
 }
 

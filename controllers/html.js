@@ -10,5 +10,8 @@ module.exports = app => {
     app.get('/projects', (req,res) => {
         res.sendFile(path.join(__dirname,'./../public/html/projects.html'))
     })
+    app.get('/contact', (req,res) => {
+        res.sendFile(path.join(__dirname,'./../public/html/contact.html'))
+    })
 
 }

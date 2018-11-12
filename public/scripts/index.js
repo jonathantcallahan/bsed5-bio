@@ -42,4 +42,9 @@ $( document ).ready(function(){
         projects.updateProjects($(this).attr('id'))
     })
     projects.getProjects(projects.updateProjects)
+    $('.content-block-contact-view-resume').click(function(){
+        $('.content-block-resume').toggle()
+        const hide = $(this).hasClass('hide')
+        $(this).text(hide ? 'CLICK TO VIEW AS IFRAME' : 'HIDE IFRAME').toggleClass('hide')
+    })
 })
