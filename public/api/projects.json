@@ -5,38 +5,38 @@
         "github" : "https://github.com/jonathantcallahan/bsed3-tabi",
         "description" : "Thinking About Eating Plants uses a combination of user input and limited navigation to curate the user experience. The site seeks to approach misconceptions about plant based diets without judgment, and in a way that aligns with the interests and values of the user. Note: the site is currently hosted on Heroku, which is very slow.",
         "images" : {
-            "mobile" : ["http://via.placeholder.com/380x700","http://via.placeholder.com/380x700","http://via.placeholder.com/380x700"],
-            "desktop" : ["http://via.placeholder.com/380x700"]
+            "mobile" : ["./../media/plants-homepage.png","./../media/plants-choice.png","./../media/plants-content.png"],
+            "desktop" : []
         }
     },
     "project-2" : {
-        "title" : "project title 2",
-        "link" : "www.example.com",
-        "github" : "",
-        "description" : "asdf asdf asdfasdfasdf asdfasdf asdfasdf asdfasd asdfasdfas fasd fasdfa sdfas",
+        "title" : "Langing Pad - React.js",
+        "link" : "https://fast-garden-47276.herokuapp.com/",
+        "github" : "https://github.com/jonathantcallahan/landing-pad",
+        "description" : "A crowdsourced React.js parking application that allows users to rent parking spaces to eachother. Built as a final project for a coding bootcamp. To view without creating an account use the username: 'jonathan' and the password: 'jonathan'. Best viewed on a mobile device or a desktop mobile emulator.",
         "images" : {
-            "mobile" : ["http://via.placeholder.com/380x700"],
-            "desktop" : ["http://via.placeholder.com/380x700"]
+            "mobile" : ["./../media/landing-home.png","./../media/landing-rent.png","./../media/landing-account.png"],
+            "desktop" : []
         }
     },
     "project-3" : {
-        "title" : "project title 3",
-        "link" : "www.example.com",
-        "github" : "",
-        "description" : "asdf asdf asdfasdfasdf asdfasdf asdfasdf asdfasd asdfasdfas fasd fasdfa sdfas",
+        "title" : "Minimalist Minimalist Baker",
+        "link" : "https://mmbaker.herokuapp.com/",
+        "github" : "https://github.com/jonathantcallahan/bsed1-mmbaker",
+        "description" : "I use the same recipe site very often, it is difficult to search and and the recipes are long blog posts. I built a site to scrape the recipes and store them so that they are easy to search and use.",
         "images" : {
-            "mobile" : ["http://via.placeholder.com/380x700"],
-            "desktop" : ["http://via.placeholder.com/380x700"]
+            "mobile" : ["./../media/mmbaker-homepage.png"],
+            "desktop" : []
         }
     },
     "project-4" : {
-        "title" : "project title 4",
-        "link" : "www.example.com",
-        "github" : "",
-        "description" : "asdf asdf asdfasdfasdf asdfasdf asdfasdf asdfasd asdfasdfas fasd fasdfa sdfas",
+        "title" : "Other Projects",
+        "link" : "https://github.com/jonathantcallahan/",
+        "github" : "https://github.com/jonathantcallahan/",
+        "description" : "Feel free to check out some of the other projects I've been working on recently on GitHub. The code for this portfolio site, a Python CLI game, some simple React.js apps, and more.",
         "images" : {
-            "mobile" : ["http://via.placeholder.com/380x700"],
-            "desktop" : ["http://via.placeholder.com/380x700"]
+            "mobile" : [""],
+            "desktop" : [""]
         }
     }
 }

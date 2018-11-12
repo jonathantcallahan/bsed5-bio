@@ -247,7 +247,9 @@ iframe::-webkit-scrollbar {
     border-bottom: 1px solid white
 }
 
-
+.display-mobile-only {
+    display: none
+}
 
 @media screen and (max-width: 880px){
     .homepage-navigation-container {
@@ -302,8 +304,21 @@ iframe::-webkit-scrollbar {
         display: inline-block;
         overflow-y: scroll;
         overflow-x: hidden;
-        padding: 0px 20px
+        padding: 0px 20px;
+        display: none
     }
+
+    .display-mobile-only {
+        display: block
+    }
+
+    .content-block-projects-inner-container {
+        overflow: scroll;
+        height: 70vh;
+        text-align: left;
+        padding: 10px 15px
+    }
+
     .projects-nav-container {
         height: 15vh;
         padding: 0px
