@@ -33,7 +33,7 @@
         "title" : "Other Projects",
         "link" : "https://github.com/jonathantcallahan/",
         "github" : "https://github.com/jonathantcallahan/",
-        "description" : "Feel free to check out some of the other projects I've been working on recently on GitHub. The code for this portfolio site, a Python CLI game, some simple React.js apps, and more.",
+        "description" : "Feel free to check out some of the other projects I've been working on recently on GitHub. This portfolio site, a Python CLI game, some simple React.js apps, and more.",
         "images" : {
             "mobile" : [""],
             "desktop" : [""]
