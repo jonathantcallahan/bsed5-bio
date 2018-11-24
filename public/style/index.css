@@ -60,9 +60,6 @@ a {
     display: none
 }
 
-.top-navigation > a:hover {
-    color: white
-}
 
 .homepage-navigation-container {
     padding: 10vh 0px 0px 40px;
@@ -204,7 +201,7 @@ iframe::-webkit-scrollbar {
 
 @keyframes letterSpace {
     0% {margin-left: 0px; font-weight: normal; /* font-size: 18px; top: 0px */ }
-    100% {margin-left: 10px; font-weight: bold;/* font-size: 22px; top: 2px */  }
+    100% {margin-left: 10px; font-weight: bold; /* font-size: 22px; top: 2px */  }
 }
 
 .homepage-navigation-link:hover {
