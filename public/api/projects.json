@@ -30,6 +30,16 @@
         }
     },
     "project-4" : {
+        "title" : "Chang is in the Air",
+        "link" : "https://chrome.google.com/webstore/category/extensions",
+        "github" : "https://github.com/jonathantcallahan/bsed7-chang",
+        "description" : "A silly Chrome extension that plays off the running joke from the series Community where the character Ben Chang would often use his last name to make bad puns (see: https://www.youtube.com/watch?v=XnQ-PFBBPzw). The extension replaces words on the page that rhyme with or are similar to (or contain words that rhyme with or are similar to) 'chang' with 'chang' by recursing through the DOM. The extension is still pending review in the Chrome Webstore.",
+        "images" : {
+            "mobile" : ["./../media/chang.png"],
+            "desktop" : [""]
+        }
+    },
+    "project-5" : {
         "title" : "Other Projects",
         "link" : "https://github.com/jonathantcallahan/",
         "github" : "https://github.com/jonathantcallahan/",

@@ -244,7 +244,8 @@ iframe::-webkit-scrollbar {
 
 
 .content-block-description {
-    margin: 20px 0px 10px 0px
+    margin: 20px 0px 10px 0px;
+    user-select: text
 }
 
 .projects-nav-container {
