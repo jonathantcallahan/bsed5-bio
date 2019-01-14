@@ -33,9 +33,11 @@ a {
     font-family: monospace;
     font-size: 40px;
     top: 5px;
-    left: 10px;
-    position: fixed;
-    background-color: transparent
+    margin-left: 8px;
+    position: relative;
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px
 }
 
 .icon {
@@ -47,17 +49,31 @@ a {
 }
 
 .top-navigation {
-    height: 60px;
     width: 100%;
     border-bottom: 1px solid black;
-    text-align: right;
-    padding: 8px 25px 0px;
-    font-size: 15px
+    text-align: left;
+    font-size: 15px;
+    height: 10px
 }
 
-.top-navigation > a {
-    margin-left: 20px;
-    display: none
+.top-navigation-links-container {
+    text-align: right;
+    padding-right: 15px
+}
+
+.top-navigation > div > a {
+    margin: 0px 4 0px;
+    display: inline-block;
+    padding: 0px 4px;
+    background-color: white;
+    position: relative;
+    z-index: 10000
+    /* margin-left: 20px; */
+    /* display: none */
+}
+
+.top-navigation > div > a:hover {
+    font-weight: bold
 }
 
 .homepage-hello {
@@ -86,6 +102,11 @@ a {
     display: inline-block
 }
 
+.nav-container {
+    width: 30vw;
+    display: inline-block
+}
+
 .mobile-image {
     width: 16vw;
     margin: .5vw;
@@ -100,7 +121,7 @@ a {
     font-size: 15px
 }
 
-.project-title-selected {
+.project-title-selected, .project-title-selected > span {
     background-color: black;
     color: white
 }
@@ -145,9 +166,12 @@ iframe {
     position: relative;
     bottom: 1px;
     margin-left: 10px;
-    background-color: red;
+    background-color: white;
     padding: 2px 4px;
     cursor: pointer;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px
 }
 
 .content-block-contact-view-resume-mobile {
@@ -274,7 +298,9 @@ iframe::-webkit-scrollbar {
 
 .projects-nav-container {
     padding-left: 0px;
-    text-align: center
+    text-align: left;
+    height: 100%;
+    border-right: 1px solid black
 }
 
 .projects-icon {
@@ -282,13 +308,32 @@ iframe::-webkit-scrollbar {
 }
 
 .project-titles {
-    margin-top: 50px;
-    border-top: 1px solid black
+    /* margin-top: 30px; */
+}
+
+.project-titles > .project-title > span {
+    padding-left: 10px
 }
 
 .project-title {
-    padding: 30px 0px;
+    padding: 20px 0px 5px;
     border-bottom: 1px solid black
+}
+
+.project-title-other-projects {
+    padding: 20px 0px
+}
+
+.project-tags-container {
+    padding: 10px 10px
+}
+
+.project-tag {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1px 4px 3px
 }
 
 .display-mobile-only {
@@ -299,12 +344,20 @@ iframe::-webkit-scrollbar {
     margin-left: 40px
 }
 
+.about-container-small {
+    display: none
+}
+
 @media screen and (max-width: 880px){
 
     .desktop-only {
         display: none
     }
 
+
+    .about-container-small {
+        display: block
+    }
 
 
     .top-navigation > a {
@@ -320,6 +373,20 @@ iframe::-webkit-scrollbar {
         margin-top: 0px
         /*for homepage*/
     }
+
+    .homepage-navigation-link {
+        margin: 10px
+    }
+
+    .homepage-hello {
+        font-size: 15px
+    }
+
+    .homepage-navigation-link > a {
+        font-size: 15px;
+        margin: 0px
+    }
+
     .homepage-circle {
         display: none
     }
@@ -354,8 +421,14 @@ iframe::-webkit-scrollbar {
 
     .top-navigation {
         margin-top: 10px;
+        text-align: center;
+        height: 20px
+    }
+
+    .top-navigation-links-container {
         text-align: center
     }
+
     .gif-overlay {
         display: none
     }
@@ -382,24 +455,30 @@ iframe::-webkit-scrollbar {
         overflow: scroll;
         height: 70vh;
         text-align: left;
-        padding: 10px 15px
+        padding: 10px 15px;
+        width: 100vw
     }
 
     .projects-nav-container {
-        height: 15vh;
-        padding: 0px
+        padding: 0px;
+        width: 100vw;
+        border-right: 0px solid black
     }
-    .mobile-image {
+    .mobile-image, .desktop-image {
         width: 100%
     }
     .project-titles {
         margin-top: 5px
     }
     .project-title {
-        padding: 3px 0px
+        padding: 3px 0px;
+        height: 20px
     }
     .projects-icon {
         margin-left: 0px
+    }
+    .project-tags-container {
+        display: none
     }
 }
 

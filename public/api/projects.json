@@ -48,5 +48,25 @@
             "mobile" : [""],
             "desktop" : [""]
         }
+    },
+    "project-6": {
+        "title": "Auto-Suggest Text",
+        "link": "https://dashboard.heroku.com/apps/pacific-plains-75966",
+        "github": "https://github.com/jonathantcallahan/ld",
+        "description": "The site takes a source text input by a user and then provides a text box where the user can type. It suggests words based on patterns recognized in the source text.",
+        "images": {
+            "mobile" : [""],
+            "desktop" : ["./../media/ld-home.png"]
+        }
+    },
+    "project-7": {
+        "title": "Facehugger",
+        "link": "https://pacific-mountain-87795.herokuapp.com/",
+        "github": "https://github.com/jonathantcallahan/bsed4-facehugger",
+        "description": "The site scrapes the internal employee directory at my company and uses the data to update a database. The site displays a histograph that shows the grouping of employee start dates, and allows users to search for themselves to see what the percentile is for their tenure.",
+        "images": {
+            "mobile":[""],
+            "desktop":["./../media/facehugger-home.png"]
+        }
     }
 }
