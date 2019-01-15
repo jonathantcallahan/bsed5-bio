@@ -51,7 +51,7 @@
     },
     "project-6": {
         "title": "Auto-Suggest Text",
-        "link": "https://dashboard.heroku.com/apps/pacific-plains-75966",
+        "link": "https://pacific-plains-75966.herokuapp.com/",
         "github": "https://github.com/jonathantcallahan/ld",
         "description": "The site takes a source text input by a user and then provides a text box where the user can type. It suggests words based on patterns recognized in the source text.",
         "images": {

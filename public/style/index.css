@@ -296,6 +296,11 @@ iframe::-webkit-scrollbar {
     user-select: text
 }
 
+.bio-link {
+    font-weight: bold;
+    text-decoration: underline
+}
+
 .projects-nav-container {
     padding-left: 0px;
     text-align: left;
