@@ -11,6 +11,11 @@
     margin: 0;
     padding: 0;
     /*overflow: hidden*/
+    cursor: url(https://telcontar.net/Misc/screeniecursors/Cursor%20arrow%20black.png), auto
+}
+
+a:hover {
+    /* cursor: url(https://win98icons.alexmeub.com/icons/png/media_player_stream_sun4.png), auto */
 }
 
 html {
@@ -119,6 +124,10 @@ a {
     vertical-align: top;
     padding: 50px;
     font-size: 15px
+}
+
+.bio .content-block {
+    margin: 10vh 0 0 30vw
 }
 
 .project-title-selected, .project-title-selected > span {
